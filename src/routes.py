@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
 
-from models import CreateUser, UpdateUser, User
+from src.models import CreateUser, UpdateUser, User
 
 router = APIRouter(prefix="/users")
 

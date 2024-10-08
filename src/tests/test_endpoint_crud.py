@@ -3,8 +3,8 @@ from collections.abc import Generator
 from fastapi.testclient import TestClient
 from pytest import fixture
 
-from src.main import app
-from src.models import CreateUser
+from main import app
+from models import CreateUser
 
 
 @fixture(scope="module")
